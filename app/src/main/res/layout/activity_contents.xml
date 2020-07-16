@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContentsActivity"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/contentsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="right">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="작성자"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:id="@+id/contentsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:paddingRight="20dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/contents"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="contents"
+        android:textAlignment="textStart"
+        android:layout_marginTop="10dp"
+        android:paddingStart="15dp"/>
+
+    <TextView
+        android:id="@+id/contentsDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="작성일"
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/editContentsBtn"
+            android:layout_marginRight="5dp"
+            android:text="수정"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_back" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/deleteContentsBtn"
+            android:layout_marginLeft="5dp"
+            android:text="삭제"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_back"/>
+
+    </LinearLayout>
+
+</LinearLayout>

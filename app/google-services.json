@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "203524173969",
+    "firebase_url": "https://dgoodpriceproject.firebaseio.com",
+    "project_id": "dgoodpriceproject",
+    "storage_bucket": "dgoodpriceproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203524173969:android:731e1a925fceabbe4dcf30",
+        "android_client_info": {
+          "package_name": "com.hustar.dgoodpricedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203524173969-g9rvm04monajj3sbpr5oksjj2ih27afg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAojdCQekUTJkogjQ_D3FYqqNkxTFrvWE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203524173969-g9rvm04monajj3sbpr5oksjj2ih27afg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
