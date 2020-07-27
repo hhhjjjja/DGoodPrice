@@ -17,6 +17,12 @@
 - 제작 인원
   - 박현정 : UI 설계 및 앱 개발
   - 정성윤 : 기획, 문서 작성 및 디자인 설계
+  
+- 요약
+  - XML Parser를 이용하여 XML 파일 형태의 데이터 파싱
+  - Google Map API로 업소 위치를 지도형태로 시각화
+  - Google Map에서 사용되는 위치값(위도/경도)값으로 주소형식을 변경하기 위해 Geocoding
+  - Firebase의 Realtime Database를 사용하여 게시판 구현
 
 ## 결과물 영상
 [DGP 애플리케이션]
