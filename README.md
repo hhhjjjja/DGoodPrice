@@ -25,9 +25,20 @@
   - Google Map API로 업소 위치를 지도형태로 시각화
   - Google Map에서 사용되는 위치값(위도/경도)값으로 주소형식을 변경하기 위해 Geocoding
   - Firebase의 Realtime Database를 사용하여 게시판 구현
-  - 로고 디자인
-  <img src="https://user-images.githubusercontent.com/59678496/88505801-670bbd00-d013-11ea-8d07-6076c4512558.png">
 
-## 결과물 영상
-[DGP 애플리케이션]
-- https://www.youtube.com/watch?v=HNxYhVkpwg0&t=1s
+## 결과물
+### 어플리케이션 UI
+- 로고 디자인
+<img src="https://user-images.githubusercontent.com/59678496/88505801-670bbd00-d013-11ea-8d07-6076c4512558.png">
+
+- 앱 화면
+<div>
+<img src="https://user-images.githubusercontent.com/59678496/88506406-ca4a1f00-d014-11ea-9d0e-963fb303e8de.jpg">
+  <img src="https://user-images.githubusercontent.com/59678496/88506433-da61fe80-d014-11ea-948d-48f49c883924.jpg">
+  <img src="https://user-images.githubusercontent.com/59678496/88506439-e352d000-d014-11ea-8d18-9cc00cc24603.jpg">
+</div>
+<img src="https://user-images.githubusercontent.com/59678496/88506533-1ac17c80-d015-11ea-86b8-76888fdfc077.PNG">
+
+### 결과물 영상
+[ DGP 애플리케이션 실행 영상 ]
+https://www.youtube.com/watch?v=HNxYhVkpwg0&t=1s
